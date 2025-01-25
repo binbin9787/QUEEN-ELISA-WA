@@ -23,23 +23,23 @@ module.exports = {
 
 Qᴜᴇᴇɴ ᴇʟɪꜱᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ`,
   ALIVE_MEDIA: 'https://telegra.ph/file/d842677f522b6bef4dfe6.jpg',
-  MONGODB_URL: process.env.MONGODB_URL|| '',
+  MONGODB_URL: process.env.MONGODB_URL|| 'mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority',
   PREFIX: '.$&',
   LANGUAGE: 'EN',
   PORT: process.env.PORT || 3000,
   BOT_NAME: 'queen elisa',
-  OWNER_NAME: 'MrNima',
-  OWNER_NUMBER: '94715166712',
-  SUDO: '94715166712',
-  WORK_TYPE: 'private', // ex: public/private
-  WORK_MODE: 'all', // ex: all/only_groups/only_pm
+  OWNER_NAME: 'MrNadun',
+  OWNER_NUMBER: '94781352903',
+  SUDO: '94781352903',
+  WORK_TYPE: 'public', // ex: public/private
+  WORK_MODE: 'only_groups', // ex: all/only_groups/only_pm
   TIME_ZONE: 'Asia/Colombo',
   CAPTION: '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Qᴜᴇᴇɴ ᴇʟɪꜱᴀ ᴍᴅ\nmr-nima.vercell.app',
   STICKER_AUTHOR: 'ᴍ ʀ  ɴ ɪ ᴍ ᴀ',
   STICKER_PACK: 'QUEEN ELISA',
   REMOVE_BG_APIKEY: '',
   MAXIMUM_FILESIZE: 90, //size in MB
-  OWNER_R_EMOJI: '💻',
+  OWNER_R_EMOJI: '☘',
   ALIVE_AS_GIF: false,//this only work for short videos
   AUTO_VOICE: true,
   INBOX_BLOCK: false,
@@ -48,7 +48,7 @@ Qᴜᴇᴇɴ ᴇʟɪꜱᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ`,
   ONLY_PM_GROUP_MSG_SEND: true,// you want WORK_MODE message send
   AUTO_SEEN_STATUS: true,
   BOT_OFFLINE: false,// Bot online status
-  READ_MESSAGE: false,
+  READ_MESSAGE: true,
   ANTI_MSG_SPAM: false,
   ANTI_BAD_WORD: false,
   ANTI_VIEW_ONES: false, // This not working now !
